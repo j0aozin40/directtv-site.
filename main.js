@@ -1,13 +1,5 @@
 
 const catalogoEl = document.getElementById("catalogo");
-let catalogo = [];
-
-fetch("filmes.json")
-  .then(res => res.json())
-  .then(data => {
-    catalogo = data;
-    renderCatalog("Todos");
-  });
 
 function renderCatalog(categoria) {
   catalogoEl.innerHTML = "";
@@ -16,7 +8,7 @@ function renderCatalog(categoria) {
     .forEach(item => {
       const card = document.createElement("div");
       card.className = "card";
-      card.innerHTML = \`<img src="\${item.capa}" alt=""><p>\${item.titulo}</p>\`;
+      card.innerHTML = `<img src="${item.capa}" alt=""><p>${item.titulo}</p>`;
       card.onclick = () => openPlayer(item.link);
       catalogoEl.appendChild(card);
     });
@@ -35,3 +27,5 @@ function closePlayer() {
   document.getElementById("videoPlayer").src = "";
   document.getElementById("playerModal").style.display = "none";
 }
+
+renderCatalog("Todos");
