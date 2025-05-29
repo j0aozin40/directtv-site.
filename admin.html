@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Direct TV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Painel de Administração</h1></header>
+  <main style="padding:20px;">
+    <form id="form">
+      <input type="text" placeholder="Título" id="titulo" required><br><br>
+      <input type="text" placeholder="URL da capa" id="capa" required><br><br>
+      <input type="text" placeholder="Link do player (embed)" id="link" required><br><br>
+      <select id="categoria">
+        <option value="Filmes">Filmes</option>
+        <option value="Séries">Séries</option>
+      </select><br><br>
+      <button type="submit">Adicionar</button>
+    </form>
+    <p style="margin-top:20px;">⚠️ As alterações devem ser feitas manualmente no arquivo <code>filmes.json</code> neste protótipo. Para salvar real, é necessário back-end.</p>
+  </main>
+</body>
+</html>

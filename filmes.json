@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Velozes e Furiosos 9",
+    "capa": "https://image.tmdb.org/t/p/w500/fQq1FWp1rC89xDrRMuyFJdFUdMd.jpg",
+    "link": "https://www.youtube.com/embed/FUK2kdPsBws",
+    "categoria": "Filmes"
+  },
+  {
+    "titulo": "John Wick 4",
+    "capa": "https://image.tmdb.org/t/p/w500/6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+    "link": "https://www.youtube.com/embed/qEVUtrk8_B4",
+    "categoria": "Filmes"
+  },
+  {
+    "titulo": "The Last of Us",
+    "capa": "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "link": "https://www.youtube.com/embed/uLtkt8BonwM",
+    "categoria": "Séries"
+  }
+]
